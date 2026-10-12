@@ -20,3 +20,5 @@ car = Car("Toyota","Corolla",4)
 motobike = Motobike("Yamaha","MT-07", 689)
 car.show_info()
 motobike.show_info()
+#les classes Car et Motorbike peuvent utiliser la méthode show_info() car elles heritent de
+# la classe Car où cette dernière à été definie
